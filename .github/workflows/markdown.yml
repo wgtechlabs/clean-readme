@@ -1,3 +1,4 @@
+# Verification-only change; the workflow below matches the published configuration.
 name: Markdown
 
 on:
