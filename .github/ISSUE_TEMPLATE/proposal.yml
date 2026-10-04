@@ -1,0 +1,26 @@
+name: Convention proposal
+description: Suggest a rule, section, or example for Clean README.
+title: "[Proposal]: "
+labels: [enhancement, needs triage]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Reader need
+      description: What problem should this proposal solve, and for which project types?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed guidance
+      description: Describe the rule or example and when it should apply.
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Example and tradeoffs
+      description: Include a public or fictional example, alternatives considered, and any migration impact.
+    validations:
+      required: true

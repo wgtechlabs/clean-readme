@@ -1,0 +1,26 @@
+name: Convention problem
+description: Report unclear, inconsistent, or incorrect README guidance.
+title: "[Convention]: "
+labels: [documentation, needs triage]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is the problem?
+      description: Describe the reader's difficulty and link to the affected guidance.
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Concrete example
+      description: Show a public or fictional README example that demonstrates the problem. Do not include private information.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected guidance
+      description: Explain what would make the convention clearer or more useful.
+    validations:
+      required: true
